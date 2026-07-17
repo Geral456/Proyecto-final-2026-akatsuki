@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+    gap: 10rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 7rem;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+
+}
+
+
+.menu ul li a {
+    display: block;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.menu ul li:hover {
+    background: #ddd;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.texto-hero {
+    position: absolute;
+    top: 50%;
+    right: 70%;
+    z-index: 10;
+    margin-left: 2rem;
+}
+
+.texto-hero p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(178, 178, 178);
+}
+
+.fondo {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.titulo-hero {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffdfa5b9;
+}
+
+.Integrantes, .Musica {
+
+    gap: 2rem;
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Integrantes h2, .Musica h2, .Contacto h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+.card {
+    width: 30rem;
+}
+
+.card img {
+    width: 100%;
+    height: 35rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.contenedor-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+        color: rgb(178, 178, 178);
+
+}
+
+.text-card p {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: rgb(178, 178, 178);
+
+}
+
+.sobre-grupo img, .list-music img {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.Musica{
+    height: 100vh;
+    background-color: #643030;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 30rem;
+}
+.mini-container-music{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .list-music ul{
+    list-style: none;
+    
+}
+.mini-container-music img{
+    width: 20rem;
+}
+
+.sobre-grupo, .list-music{
+  
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color: #181818;
+}
+
+.list-music h3{
+    margin-bottom: 3rem;
+}
+
+.Contacto{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.redes-sociales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.redes-sociales i{
+    font-size: 5rem;
+}
+
+.footer{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
